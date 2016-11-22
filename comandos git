@@ -1,0 +1,4 @@
+--descargar o clonar un repositorio
+
+git clone https://github.com/afbenavides/ejemplo.git
+
