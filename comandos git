@@ -26,3 +26,6 @@ git commit -m "comentario se modifico el archivo X"
 -- subir cambios al servidor github 
 git push origin master
 
+-- actualizar el repositorio
+git pull
+
