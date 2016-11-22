@@ -1,4 +1,28 @@
---descargar o clonar un repositorio
+-- si esta detras de un proxy (como en el SENA)
+git config --global http.proxy proxy2.sena.edu.co:80
 
+
+-- para quitar el proxy
+git config --global --unset http.proxy
+
+
+--descargar o clonar un repositorio
 git clone https://github.com/afbenavides/ejemplo.git
+
+
+-- ver que pasa con el respositorio, cambios, conflictos, etc
+git status
+
+
+-- agregar archivos o carpetas al repositorio
+git add [archivo|carpeta]
+
+-- agregar todos los archivos y carpetas
+git add .
+
+-- confirmar cambios -> a la nueva version
+git commit -m "comentario se modifico el archivo X"
+
+-- subir cambios al servidor github 
+git push origin master
 
