@@ -46,10 +46,16 @@ git checkout master
 -- atajo a crear y cambiar de rama
 git checkout -b subsistema
 
--- borrar una rama
-git branch -d subsistema
-
 -- subir la rama al repositorio remoto
 git push origin subsistema
 
+-- unir una rama al master o a otra rama
+git checkout master
+git merge subsistema
 
+-- borrar una rama local
+git branch -d subsistema
+
+-- borrar una rama remota
+git push origin --delete subsistema
+git push origin :subsistema
