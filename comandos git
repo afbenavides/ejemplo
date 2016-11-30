@@ -1,3 +1,6 @@
+-- leer la guia sencilla 
+-- http://rogerdudler.github.io/git-guide/index.es.html
+
 -- si esta detras de un proxy (como en el SENA)
 git config --global http.proxy proxy2.sena.edu.co:80
 
@@ -20,6 +23,9 @@ git add [archivo|carpeta]
 -- agregar todos los archivos y carpetas
 git add .
 
+-- modificar archivos codigo fuente 
+-- bloc de notas , sublime, netBeans
+
 -- confirmar cambios -> a la nueva version
 git commit -m "comentario se modifico el archivo X"
 
@@ -28,4 +34,10 @@ git push origin master
 
 -- actualizar el repositorio
 git pull
+
+-- crear una nueva rama y pasarse a ella
+git checkout -b subsistema
+
+
+
 
