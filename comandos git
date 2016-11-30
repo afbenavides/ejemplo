@@ -35,8 +35,19 @@ git push origin master
 -- actualizar el repositorio
 git pull
 
--- crear una nueva rama y pasarse a ella
+-----------------------------------------------------------------
+-- crear una rama
+git branch subsistema
+
+-- cambiar de rama
+git checkout subsistema
+git checkout master
+
+-- atajo a crear y cambiar de rama
 git checkout -b subsistema
+
+-- borrar una rama
+git branch -d subsistema
 
 -- subir la rama al repositorio remoto
 git push origin subsistema
