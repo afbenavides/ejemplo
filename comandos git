@@ -38,6 +38,7 @@ git pull
 -- crear una nueva rama y pasarse a ella
 git checkout -b subsistema
 
-
+-- subir la rama al repositorio remoto
+git push origin subsistema
 
 
